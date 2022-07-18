@@ -116,9 +116,16 @@ body {
 }
 
 /* Stying the content Header  */
+
 .content {
   max-width: 1170px;
   margin: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(43, 40, 64, 0) 9.5%,
+    rgba(43, 40, 64, 0.22) 38.07%,
+    rgba(32, 29, 52, 0.78) 82.5%
+  );
 }
 
 .content__imagePrincipale {
@@ -161,4 +168,58 @@ body {
   width: 600px;
   color: var(--white);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* styling the sliderBottom */
+.content__sliderBottom {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 584px;
+  z-index: 3;
+  max-width: 1170px;
+}
+
+.content__sliderBottom > div {
+  border-top: 2px solid var(--white);
+  display: flex;
+  column-gap: 11px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.content__sliderBottom > div:nth-child(2) > p {
+  color: var(--white);
+  font-weight: 800;
+  opacity: 100;
+}
+.content__sliderBottom > div > p {
+  color: var(--white);
+  opacity: 0.7;
+}
+
+/* Starting styling the Archives section */
+
+.app__archieve {
+  background-color: var(--background);
+}
+
+.archeive {
+  padding: 173px 0 63px 0;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.archieve__header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header__bar {
+  width: 1015px;
+  height: 0px;
+  border: 1px solid var(--red);
 }
