@@ -1,0 +1,73 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/Proxima\ Nova\ Font.otf);
+}
+
+:root {
+  /* Primary Color  */
+  --red: #e1011a;
+  --white: #ffffff;
+  --violet: #2b2840;
+
+  /* Secodary Color */
+  --background: #f1f1f1;
+  --gray1: #e5e5e5;
+  --gray3: #828282;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 39px;
+  font-weight: 800;
+  color: var(--violet);
+}
+
+h3 {
+  font-size: 31px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+li {
+  color: var(--white);
+  list-style: none;
+  font-weight: 700;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  line-height: 17px;
+}
+a {
+  text-decoration: none;
+}
+
+input {
+  color: var(--gray3);
+  border: 0;
+  background-color: transparent;
+}
+input:focus {
+  outline: 0;
+}
