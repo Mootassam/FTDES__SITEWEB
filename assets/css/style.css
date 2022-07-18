@@ -137,6 +137,7 @@ body {
   display: flex;
   width: 1170px;
   justify-content: space-between;
+  align-items: center;
   padding: 0.625rem;
   top: 297px;
   text-align: center;
@@ -202,6 +203,8 @@ body {
 /* Starting styling the Archives section */
 
 .app__archieve {
+  position: relative;
+  top: -100px;
   background-color: var(--background);
 }
 
@@ -222,4 +225,64 @@ body {
   width: 1015px;
   height: 0px;
   border: 1px solid var(--red);
+}
+
+.archieve__left {
+  padding-top: 2.5rem;
+  width: 1086px;
+  max-width: 1086px;
+}
+.left__search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.left__search > input {
+  background-color: var(--white);
+  height: 50px;
+  width: 471px;
+  padding: 7px 20px;
+  font-size: 15px;
+  line-height: 39px;
+}
+
+.button__search {
+  cursor: pointer;
+  padding: 0.9375rem 1.9375rem;
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  margin-right: 22px;
+  margin-left: 9px;
+}
+.fa-magnifying-glass {
+  color: var(--white);
+  padding-right: 0.936875rem;
+}
+
+.search__advanced {
+  cursor: pointer;
+  color: var(--violet);
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.9375rem 0.5rem;
+
+  border-bottom: 2px solid var(--violet);
+}
+
+.left__content {
+  padding-top: 40px;
+  display: flex;
+  gap: 23px;
+}
+
+.left__content > div {
+  max-width: 260px;
+  width: 260px;
+  flex-wrap: wrap;
+  background-color: var(--white);
 }
