@@ -270,18 +270,26 @@ body {
   font-weight: 700;
   text-align: center;
   padding: 0.9375rem 0.5rem;
-
   border-bottom: 2px solid var(--violet);
 }
 
 .left__content {
   padding-top: 40px;
   display: flex;
+  flex-wrap: wrap;
   gap: 23px;
+  align-items: center;
+  justify-content: flex-start;
+
+  text-align: center;
 }
 
 .left__content > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 260px;
+  height: 172px;
   width: 260px;
   flex-wrap: wrap;
   background-color: var(--white);
