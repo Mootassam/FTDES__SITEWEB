@@ -348,8 +348,16 @@ body {
   font-size: 23px;
   line-height: 32px;
   color: var(--white);
+  padding-top: 30px;
+  padding-bottom: 90px;
+  height: 86px;
+  padding-right: 20px;
 }
 
+.global__navigations {
+  display: flex;
+  column-gap: 7px;
+}
 .global__content {
   margin-top: 25px;
   font-style: normal;
@@ -378,7 +386,7 @@ body {
 }
 .global__button {
   cursor: pointer;
-  margin: 39px 0;
+  margin: 25px 0 39px 0;
   color: var(--red);
   font-weight: 700;
   font-size: 17px;
