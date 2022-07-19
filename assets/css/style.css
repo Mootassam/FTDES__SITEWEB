@@ -328,7 +328,8 @@ body {
   margin-bottom: 59px;
   background-image: url(/assets/images/haraga.png);
   background-color: #2b2840;
-  background-position: left;
+  background-position: right 300px bottom -230px;
+  background-repeat: no-repeat;
   width: 1170px;
   height: 517px;
   padding: 47px 35px 40px;
@@ -349,7 +350,7 @@ body {
   line-height: 32px;
   color: var(--white);
   padding-top: 30px;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
   height: 86px;
   padding-right: 20px;
 }
@@ -357,6 +358,9 @@ body {
 .global__navigations {
   display: flex;
   column-gap: 7px;
+}
+.global__navigations > div {
+  background-color: transparent;
 }
 .global__content {
   margin-top: 25px;
@@ -415,6 +419,102 @@ body {
   line-height: 29px;
   padding: 0 19px;
   text-align: center;
+}
+
+/* stlying the statestique dashboard */
+.statestique__graph {
+  display: flex;
+  column-gap: 56px;
+}
+.graph__left {
+  width: 50%;
+}
+.graphs__right {
+  width: 50%;
+}
+
+.graph__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 33px;
+  color: var(--violet);
+}
+
+.graph__navigate {
+  display: flex;
+  column-gap: 4.51px;
+}
+
+.navigate__left,
+.navigate__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.navigate__left > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigate__left {
+  border: 2px solid var(--navigate__left);
+  color: var(--navigate__left);
+}
+.navigate__right {
+  color: var(--violet);
+  border: 2px solid var(--violet);
+}
+
+.graph__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 62px 0;
+  justify-content: space-between;
+}
+.descripition__left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 39px;
+}
+.descripition__left > div {
+  display: grid;
+  grid-template-columns: 72px 262px;
+  width: 352px;
+  color: #2b2840;
+  column-gap: 18px;
+}
+
+.description__number {
+  justify-self: flex-end;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 39px;
+  color: var(--violet);
+  padding-right: 18px;
+}
+
+/* styling the bar graph */
+
+.detaill__graph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 15px 0;
+  color: var(--gray2);
 }
 
 /* Styling the footer seciton  */
