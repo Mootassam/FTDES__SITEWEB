@@ -727,6 +727,121 @@ body {
   width: 120px;
 }
 
+/* styling the vue section */
+.vue {
+  padding: 40px 0 73px;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.vue__header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 39px;
+  color: var(--violet);
+}
+
+.vue__bar {
+  margin: 5px 0 37px;
+  width: 100%;
+  border: 1px solid #2b2840;
+  opacity: 0.2;
+}
+.vue__content {
+  display: grid;
+  grid-template-columns: repeat(5, 225px);
+  justify-content: space-between;
+}
+
+.vue__content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vue__number {
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 110px;
+  color: #f2f2f2;
+  z-index: 1;
+  position: relative;
+}
+.vue__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--violet);
+  position: relative;
+  z-index: 2;
+  right: 10px;
+}
+
+/* Styling the évènement section */
+
+.app__evenement {
+  padding: 49px 100px;
+  width: 100%;
+  background-color: var(--background);
+}
+.evenenement {
+  max-width: 1170px;
+  margin: auto;
+}
+.evenement__content {
+  margin-top: 1.875rem;
+  display: grid;
+  grid-template-columns: 64px 673px 369px;
+}
+.timing__bar {
+}
+.timing__number {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.evenement__description {
+  display: grid;
+  grid-template-rows: 202px 202px 202px;
+  row-gap: 23px;
+}
+
+.evenement__description > div {
+  display: flex;
+  column-gap: 22px;
+  padding: 13px 15px;
+  background-color: var(--white);
+}
+
+.evenement__right {
+  display: flex;
+  flex-direction: column;
+}
+.right__date {
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.righ__desctiption {
+  padding: 16px 0 6px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  max-width: 418px;
+}
+
+.right__footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--gray2);
+  max-width: 410px;
+}
+
 /* Styling the footer seciton  */
 
 .app__footer {
