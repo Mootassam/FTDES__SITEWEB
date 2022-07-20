@@ -568,6 +568,39 @@ body {
 .images__bottom > div > img {
   padding-bottom: 0.875rem;
 }
+.__header {
+  position: relative;
+}
+.__detaills {
+  position: absolute;
+  bottom: 0;
+  padding: 2.0625rem;
+}
+.__left {
+  background: #ffffff;
+  opacity: 0.26;
+  border-radius: 3px;
+  padding: 2px 7px;
+  position: relative;
+}
+.__left > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--white);
+}
+.__right {
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--white);
+}
+
+.__content {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  color: var(--white);
+}
 
 .publication__list {
   display: flex;
