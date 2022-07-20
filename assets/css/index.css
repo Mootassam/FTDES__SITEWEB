@@ -56,6 +56,13 @@ h4 {
   color: var(--violet);
 }
 
+h5 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: var(--violet);
+}
+
 li {
   color: var(--white);
   list-style: none;

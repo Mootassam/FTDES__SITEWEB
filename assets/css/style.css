@@ -326,6 +326,21 @@ body {
   border: 1px solid var(--red);
 }
 
+.Glossaire {
+  background: #ffffff;
+  padding: 25px 22px;
+  border: 1px solid #2b2840;
+  max-height: 201px;
+}
+
+.glossaire__detaill {
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--violet);
+}
+
 .statesitique__global {
   margin-top: 40px;
   margin-bottom: 59px;
@@ -617,6 +632,7 @@ body {
 .publication__list > div {
   display: flex;
   column-gap: 21px;
+  margin: 0;
 }
 
 .list__detaill {
