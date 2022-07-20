@@ -555,6 +555,20 @@ body {
   column-gap: 30px;
 }
 
+.publication__images {
+  padding-top: 2.9375rem;
+}
+
+.images__bottom {
+  display: flex;
+  column-gap: 2.0625rem;
+  padding-top: 2.0625rem;
+}
+
+.images__bottom > div > img {
+  padding-bottom: 0.875rem;
+}
+
 .publication__list {
   display: flex;
   flex-direction: column;
