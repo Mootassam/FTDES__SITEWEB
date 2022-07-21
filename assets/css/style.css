@@ -793,18 +793,52 @@ body {
   display: grid;
   grid-template-columns: 64px 673px 369px;
 }
-.timing__bar {
+.evenement__timing {
+  display: flex;
 }
 .timing__number {
   display: flex;
-  width: 100%;
+  flex-direction: column;
   justify-content: space-around;
+}
+.timing__number > div {
+  position: relative;
+  right: 4.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cercle__red {
+  background-color: var(--red);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.date {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 39px;
+  color: var(--violet);
+}
+.month {
+  font-size: 25px;
+  line-height: 39px;
+  color: var(--violet);
 }
 
 .evenement__description {
   display: grid;
   grid-template-rows: 202px 202px 202px;
   row-gap: 23px;
+  margin-left: 2.25rem;
 }
 
 .evenement__description > div {
@@ -851,6 +885,12 @@ body {
   line-height: 22px;
   color: var(--gray2);
   max-width: 410px;
+}
+
+.evenement__calendar {
+  height: 650px;
+  background-color: var(--white);
+  margin-left: 28px;
 }
 
 /* Styling the footer seciton  */
