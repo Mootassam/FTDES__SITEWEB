@@ -974,6 +974,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 252px;
+  align-items: flex-start;
 }
 
 .gallery__detaill {
@@ -982,6 +983,48 @@ body {
   font-size: 17px;
   line-height: 24px;
   padding-top: 30px;
+}
+
+/* stying the art section */
+
+.art__images {
+  max-width: 1170px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.art__images > div {
+  max-width: 160px;
+  width: 160px;
+}
+.art__photo {
+  position: relative;
+  max-width: 160px;
+  width: 160px;
+  height: 206px;
+}
+.art__photo > img {
+  object-fit: contain;
+  object-position: center;
+}
+
+.art__detaill {
+  text-align: start;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--violet);
+  padding: 25px 0 15px;
+}
+
+.art__author {
+  text-align: start;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--violet);
 }
 /* Styling the footer seciton  */
 
