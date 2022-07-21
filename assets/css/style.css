@@ -894,6 +894,10 @@ body {
   margin-left: 28px;
   padding: 24px 16px;
 }
+.calendar {
+  height: 327.24px;
+  margin-bottom: 23.78px;
+}
 
 .clendar__footer {
   position: relative;
@@ -913,7 +917,6 @@ body {
   place-items: center;
   background-color: var(--white);
   padding: 5px 16px;
-
   margin: 19px 0 0 16px;
 }
 
@@ -923,6 +926,62 @@ body {
   font-size: 18px;
   line-height: 21px;
   margin: 0 0 14px 16px;
+}
+
+.app__galery {
+  padding: 50px 0 100px;
+  width: 100%;
+  background-color: var(--background);
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  background-color: var(--violet);
+  padding: 24px 22px 44px 26px;
+  margin: auto;
+}
+
+.gallery h2 {
+  color: var(--white);
+}
+
+.gallery__images {
+  display: flex;
+  padding-top: 33px;
+}
+
+.image {
+  position: relative;
+}
+.youtube__button {
+  cursor: pointer;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  margin: 0 0 12px 9px;
+  bottom: 0;
+}
+.gallery__images {
+  display: flex;
+  justify-content: space-between;
+}
+.gallery__images > div {
+  display: flex;
+  flex-direction: column;
+  max-width: 252px;
+}
+
+.gallery__detaill {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding-top: 30px;
 }
 /* Styling the footer seciton  */
 
