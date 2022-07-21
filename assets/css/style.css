@@ -819,11 +819,22 @@ body {
   flex-direction: column;
 }
 .right__date {
+  padding-top: 5px;
   display: flex;
-  padding-bottom: 15px;
   border-bottom: 1px solid #e0e0e0;
+  column-gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+}
+.right__date > div {
   font-size: 12px;
   line-height: 15px;
+  color: var(--gray2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
 }
 
 .righ__desctiption {
