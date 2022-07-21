@@ -790,8 +790,8 @@ body {
 }
 .evenement__content {
   margin-top: 1.875rem;
-  display: grid;
-  grid-template-columns: 64px 673px 369px;
+  display: flex;
+  justify-content: space-around;
 }
 .evenement__timing {
   display: flex;
@@ -800,6 +800,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-right: 35px;
 }
 .timing__number > div {
   position: relative;
@@ -832,13 +833,13 @@ body {
   font-size: 25px;
   line-height: 39px;
   color: var(--violet);
+  font-weight: 700;
 }
 
 .evenement__description {
   display: grid;
   grid-template-rows: 202px 202px 202px;
   row-gap: 23px;
-  margin-left: 2.25rem;
 }
 
 .evenement__description > div {
@@ -891,8 +892,38 @@ body {
   height: 650px;
   background-color: var(--white);
   margin-left: 28px;
+  padding: 24px 16px;
 }
 
+.clendar__footer {
+  position: relative;
+}
+
+.calendar__month {
+  position: absolute;
+  top: 0;
+}
+.calendar__detaill {
+  position: absolute;
+  bottom: 0;
+}
+
+.calendar__month {
+  display: grid;
+  place-items: center;
+  background-color: var(--white);
+  padding: 5px 16px;
+
+  margin: 19px 0 0 16px;
+}
+
+.calendar__detaill {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 14px 16px;
+}
 /* Styling the footer seciton  */
 
 .app__footer {
