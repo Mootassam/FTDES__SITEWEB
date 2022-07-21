@@ -1070,6 +1070,14 @@ styling the newsLettre */
   padding: 106px 75px;
 }
 
+.news {
+  display: flex;
+  padding-top: 46px;
+}
+.left__image {
+  padding-right: 30px;
+}
+
 .newsLettre__right {
   background-color: var(--violet);
   padding: 21px 18px 71px 40px;
