@@ -992,12 +992,40 @@ body {
   margin: auto;
   padding-top: 100px;
   display: flex;
+  width: 1170px;
   justify-content: space-between;
 }
 
 .art__images > div {
   max-width: 160px;
   width: 160px;
+}
+.art__photo {
+  display: grid;
+  place-items: center;
+}
+.art__photo > img {
+  position: relative;
+  z-index: 1;
+}
+.art__photo::before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 0px;
+  top: 0;
+  border: 1px solid #d0d0d0;
+  transform: rotate(90deg);
+  z-index: 0;
+}
+.text__verticale {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 39px;
+  color: #2b2840;
+  opacity: 0.2;
+  transform: rotate(-90deg);
 }
 .art__photo {
   position: relative;
@@ -1026,6 +1054,7 @@ body {
   line-height: 17px;
   color: var(--violet);
 }
+
 /* Styling the footer seciton  */
 
 .app__footer {
