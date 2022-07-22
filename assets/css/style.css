@@ -18,8 +18,9 @@ body {
 .nav__logo {
   column-gap: 0.5625rem;
   display: flex;
-  height: 65px;
+  height: 68px;
   margin-right: 101px;
+  width: 195px;
 }
 .logo__text {
   width: 135px;
