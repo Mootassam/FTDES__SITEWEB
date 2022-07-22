@@ -106,6 +106,7 @@ body {
 /* Stying the links  */
 
 .header__links {
+  width: 100%;
   margin-top: 0.5rem;
   padding: 0.4375rem;
   background-color: var(--red);
@@ -119,6 +120,9 @@ body {
 .links > ul {
   display: flex;
   justify-content: space-between;
+}
+.humberger {
+  padding-right: 10px;
 }
 
 .button__language > img {
@@ -218,6 +222,7 @@ body {
   background-position: right bottom;
   position: relative;
   top: -100px;
+  margin-bottom: -100px;
   background-color: var(--background);
 }
 
@@ -496,11 +501,17 @@ body {
 }
 .navigate__left {
   border: 2px solid var(--navigate__left);
+}
+.navigate__left > i {
   color: var(--navigate__left);
 }
+
 .navigate__right {
-  color: var(--violet);
   border: 2px solid var(--violet);
+}
+
+.navigate__right > i {
+  color: var(--violet);
 }
 
 .graph__description {
@@ -545,7 +556,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
   padding-top: 32px;
-  align-items: center;
+  align-items: flex-start;
 }
 .percent__detaills > div {
   padding: 33px 0;
