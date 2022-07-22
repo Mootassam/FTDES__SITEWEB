@@ -1187,12 +1187,13 @@ styling the newsLettre */
 /* Styling the footer seciton  */
 
 .app__footer {
-  position: relative;
-}
-.footer {
   width: 100%;
   background-color: var(--red);
-  padding: 34px 55px;
+}
+.footer {
+  max-width: 1170px;
+  margin: auto;
+  padding-top: 34px;
 }
 
 .footer__content {
