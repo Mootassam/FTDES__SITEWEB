@@ -1194,42 +1194,48 @@ styling the newsLettre */
   max-width: 1170px;
   margin: auto;
   padding-top: 34px;
+  padding-bottom: 54.4px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer__content {
-  display: flex;
-  max-width: 1170px;
-  margin: auto;
+.footer__bar {
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+  width: 152px;
+  height: 0px;
+  opacity: 0.4;
 }
 
 .footer__menu,
 .footer__socialmedia,
 .footer__contact {
-  padding-top: 70px;
+  padding-top: 36px;
   display: flex;
   flex-direction: column;
+  color: var(--white);
+  align-items: flex-start;
 }
 
+.footer__socialmedia > div {
+  font-size: 14px;
+  line-height: 40px;
+  display: flex;
+  column-gap: 21px;
+  align-items: baseline;
+  justify-content: flex-start;
+}
 .menu__footer {
   display: flex;
 }
-
+.menu__footer li {
+  font-weight: 400;
+}
 .left,
 .right {
   width: 133px;
   height: 177px;
   padding: 15px 25px 15px 0;
-}
-
-.footer__bar {
-  position: absolute;
-  width: 152px;
-  height: 0;
-  opacity: 0.4;
-  border: 1px solid #ffffff;
-  transform: rotate(90deg);
-  top: 0;
-  left: 410px;
 }
 
 label {
@@ -1298,4 +1304,6 @@ label {
 }
 .contact__address {
   color: var(--white);
+  font-size: 14px;
+  line-height: 25px;
 }
