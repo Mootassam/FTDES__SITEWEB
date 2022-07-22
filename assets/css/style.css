@@ -1024,14 +1024,22 @@ body {
   margin: auto;
   padding-top: 100px;
   display: flex;
-  width: 1170px;
   justify-content: space-between;
+  align-items: center;
 }
-
 .art__images > div {
-  max-width: 160px;
+  width: max-content;
   width: 160px;
 }
+.art__images > div:nth-child(1) {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 39px;
+  color: #2b2840;
+  opacity: 0.2;
+  transform: rotate(-90deg);
+}
+
 .art__photo {
   display: grid;
   place-items: center;
