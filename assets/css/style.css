@@ -1026,16 +1026,18 @@ body {
   display: grid;
   grid-template-columns: 39px 160px 160px 160px 160px 160px;
   column-gap: 64px;
-  align-items: center;
+  align-items: baseline;
 }
 
 .art__images > div:nth-child(1) {
+  position: relative;
   font-weight: 800;
   font-size: 35px;
   line-height: 39px;
   color: #2b2840;
   opacity: 0.2;
   transform: rotate(-90deg);
+  margin-left: 18px;
 }
 
 .art__photo {
