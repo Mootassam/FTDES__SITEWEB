@@ -1023,14 +1023,12 @@ body {
   max-width: 1170px;
   margin: auto;
   padding-top: 100px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 39px 160px 160px 160px 160px 160px;
+  column-gap: 64px;
   align-items: center;
 }
-.art__images > div {
-  width: max-content;
-  width: 160px;
-}
+
 .art__images > div:nth-child(1) {
   font-weight: 800;
   font-size: 35px;
