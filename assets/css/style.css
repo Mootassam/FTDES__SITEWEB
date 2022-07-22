@@ -39,13 +39,19 @@ body {
   align-items: center;
   max-width: 385px;
   background-color: var(--background);
-  margin-right: 40px;
+  margin-right: 33px;
+}
+.nav__search input {
+  width: 100%;
+}
+.nav__search i {
+  padding-right: 0;
+  color: var(--gray4);
 }
 
 .nav__socialmedia {
   display: flex;
   align-items: center;
-  margin-right: 45px;
 }
 .nav__socialmedia > img {
   padding-right: 2.0175rem;
@@ -53,19 +59,22 @@ body {
 }
 
 .nav__button {
+  cursor: pointer;
   display: flex;
   align-items: center;
   column-gap: 2.875rem;
 }
 
 .button__connexion {
+  cursor: pointer;
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
   align-items: baseline;
-  padding-bottom: 9px;
   border-bottom: 4px solid var(--red);
   color: var(--red);
   font-weight: bold;
+  padding: 0 12.5px 9px 12.5px;
+  max-width: 128px;
 }
 
 .button__language {
@@ -1220,8 +1229,8 @@ styling the newsLettre */
   line-height: 40px;
   display: flex;
   column-gap: 21px;
-  align-items: baseline;
-  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
 }
 .menu__footer {
   display: flex;
