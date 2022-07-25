@@ -773,6 +773,40 @@ Styling the archeive verison Mobile  */
   padding-right: 18px;
 }
 
+@media screen and (max-width: 1171px) {
+  .statestique__graph {
+    display: flex;
+    column-gap: 56px;
+    flex-direction: column;
+    padding: 0 18px;
+  }
+  .graph__left {
+    width: 100%;
+  }
+  .graph__right {
+    width: 100%;
+  }
+  .graph__description {
+    display: flex;
+    flex-direction: column;
+    margin: 2.25rem 0 0;
+  }
+
+  .descripition__left > div {
+    display: grid;
+    grid-template-columns: 72px 262px;
+    width: 100%;
+    color: #2b2840;
+    column-gap: 18px;
+  }
+  .description__text {
+    width: 100%;
+  }
+  .description__number {
+    padding-right: 0;
+  }
+}
+
 /* styling the statics percent */
 
 .statestique__percent {
