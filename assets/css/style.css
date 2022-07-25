@@ -625,6 +625,63 @@ Styling the archeive verison Mobile  */
   text-align: center;
 }
 
+@media screen and (max-width: 1171px) {
+  .statestique {
+    padding: 70px 0 0 0;
+  }
+  .statestique > div:nth-child(1) {
+    padding: 0 18px;
+  }
+
+  .statesitique__global {
+    margin-top: 27px;
+    margin-bottom: 43px;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/haraga.png);
+    background-color: #2b2840;
+    background-position: top left;
+    background-repeat: no-repeat;
+
+    padding: 26px 18px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+  }
+  .global__left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .global__content {
+    margin-top: 45px;
+  }
+  .global__right {
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: none;
+    row-gap: 14px;
+  }
+  .global__right > div {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(14px);
+    justify-content: center;
+    align-items: center;
+  }
+  .small__bar {
+    transform: rotate(90deg);
+    margin: 0;
+  }
+  .detaill__number {
+    text-align: start;
+    width: 100%;
+    padding: 0;
+    max-width: 192px;
+  }
+}
+
 /* stlying the statestique dashboard */
 .statestique__graph {
   display: flex;
