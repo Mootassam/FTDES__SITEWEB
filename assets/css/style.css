@@ -3,6 +3,10 @@ body {
   font-weight: 400;
 }
 
+.app {
+  overflow: hidden;
+}
+
 /* Styling the header sections */
 .header__nav {
   width: 100%;
@@ -47,7 +51,7 @@ body {
 }
 .nav__search i {
   padding-right: 0;
-  color: var(--gray4);
+  color: var(--gray2);
 }
 
 .nav__socialmedia {
@@ -101,6 +105,23 @@ body {
 }
 .links__language {
   color: var(--violet);
+}
+
+/* Styling the header Verion Mobile  */
+
+@media (max-width: 1171px) {
+  .nav__socialmedia {
+    display: none;
+  }
+  .nav__search {
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+  .nav__button {
+    display: none;
+  }
 }
 
 /* Stying the links  */
@@ -214,6 +235,28 @@ body {
   opacity: 0.7;
 }
 
+/* Styling the content header version Mobile  */
+
+@media screen and (max-width: 1171px) {
+  .content__sliderTop {
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    padding: 0;
+  }
+
+  .content__sliderBottom {
+    display: none;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 30px;
+  }
+  .content__sliderTop > div {
+    display: none;
+  }
+}
 /* Starting styling the Archives section */
 
 .app__archieve {
@@ -318,6 +361,11 @@ body {
 
 .left__content > div > img {
   padding-bottom: 25px;
+}
+/* 
+Styling the archeive verison Mobile  */
+
+@media screen and (max-width: 1171px) {
 }
 
 /* styling the .statestique section */
