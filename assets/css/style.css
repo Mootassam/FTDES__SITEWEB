@@ -117,10 +117,13 @@ body {
     display: none;
   }
   .header__nav_mobile {
-    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile__top {
+    padding: 25px 18px 3.46px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
   }
   .button__connexion {
@@ -129,11 +132,28 @@ body {
     border-bottom: 4px solid var(--red);
     color: var(--red);
     font-weight: bold;
-    width: 36px;
     place-items: center;
   }
   .fa-user {
     padding: 0;
+  }
+  .mobile__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    background-color: var(--red);
+  }
+  .links__menue {
+    background-color: var(--dark--red);
+    padding: 10px 12px;
+  }
+  .links__translate {
+    padding: 0 18px 0 0;
+    column-gap: 8px;
+    display: flex;
+    color: var(--white);
+    align-items: center;
   }
 }
 
