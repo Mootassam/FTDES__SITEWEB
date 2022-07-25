@@ -809,6 +809,13 @@ Styling the archeive verison Mobile  */
   .graph__left > .global__button {
     display: none;
   }
+  .global__left > .global__navigations {
+    display: none;
+  }
+  .statesitique__global > .global__navigations {
+    margin-right: 0;
+    margin-left: auto;
+  }
 }
 
 /* styling the statics percent */
