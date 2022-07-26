@@ -1720,6 +1720,20 @@ label {
   color: var(--white);
   display: flex;
 }
+@media screen and (max-width: 1171px) {
+  .footer {
+    flex-direction: column;
+  }
+  .menu__footer,
+  .contact__address {
+    display: none;
+  }
+  .footer__socialmedia > div {
+    display: none;
+  }
+}
+
+/* styling the copywrite  */
 
 .footer__copywrite {
   position: relative;
@@ -1782,7 +1796,6 @@ label {
   .copywrite__right {
     display: none;
   }
-
   .copywrite {
     display: flex;
     width: 100%;
