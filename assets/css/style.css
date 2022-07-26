@@ -122,7 +122,7 @@ body {
     flex-direction: column;
   }
   .mobile__top {
-    padding: 25px 18px 3.46px;
+    padding: 25px 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
