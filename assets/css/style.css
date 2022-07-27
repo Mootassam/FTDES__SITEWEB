@@ -314,7 +314,7 @@ body {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .image__desktop {
     display: none;
   }
@@ -420,6 +420,7 @@ body {
   max-width: 260px;
   height: 172px;
   width: 100%;
+  gap: 31px;
   flex-wrap: wrap;
   background-color: var(--white);
 }
