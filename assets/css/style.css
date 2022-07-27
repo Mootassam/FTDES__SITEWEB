@@ -1392,7 +1392,7 @@ Styling the archeive verison Mobile  */
     max-width: 316px;
   }
   .clendar__footer > img {
-    width: 100%;
+    min-width: 100%;
   }
   .timing__number {
     height: 800px;
@@ -1498,6 +1498,15 @@ Styling the archeive verison Mobile  */
   column-gap: 64px;
   align-items: baseline;
 }
+.naviation__art {
+  max-width: 1170px;
+  margin-inline: auto;
+}
+.naviation__art > div {
+  position: relative;
+  float: right;
+  padding-top: 36px;
+}
 
 .art__images > div:nth-child(1) {
   position: relative;
@@ -1565,6 +1574,11 @@ Styling the archeive verison Mobile  */
   color: var(--violet);
 }
 
+@media screen and (max-width: 1170px) {
+  .naviation__art {
+    display: none;
+  }
+}
 /* 
 styling the newsLettre */
 
