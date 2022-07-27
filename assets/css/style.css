@@ -1213,7 +1213,7 @@ Styling the archeive verison Mobile  */
   position: relative;
   right: 4.3px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-content: center;
 }
