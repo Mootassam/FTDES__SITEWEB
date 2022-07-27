@@ -285,12 +285,7 @@ body {
     align-items: center;
     padding: 0;
   }
-  .image__desktop {
-    display: none;
-  }
-  .image__mobile {
-    display: block;
-  }
+
   .content__sliderBottom {
     display: none;
   }
@@ -312,10 +307,19 @@ body {
   }
 
   .content__imagePrincipale {
-    width: 100%;
+    object-fit: contain;
   }
   .content__imagePrincipale > img {
-    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .image__desktop {
+    display: none;
+  }
+  .image__mobile {
+    display: block;
   }
 }
 /* Starting styling the Archives section */
@@ -905,7 +909,8 @@ Styling the archeive verison Mobile  */
 }
 .images__bottom > div {
   width: 100%;
-  width: 338px;
+
+  max-width: 22.125375rem;
 }
 
 .images__bottom > div > img {
@@ -1095,6 +1100,7 @@ Styling the archeive verison Mobile  */
   .publication__list > div {
     display: flex;
     column-gap: 21px;
+    align-items: flex-start;
     width: 100%;
     margin: 0;
   }
@@ -1301,8 +1307,7 @@ Styling the archeive verison Mobile  */
 }
 
 .clendar__footer {
-  width: 369px;
-
+  max-width: 369px;
   position: relative;
 }
 
@@ -1706,6 +1711,9 @@ styling the newsLettre */
   }
   .newsLettre__left > .text__content {
     display: block;
+  }
+  .text__content > .global__button {
+    margin-bottom: 0;
   }
 }
 
