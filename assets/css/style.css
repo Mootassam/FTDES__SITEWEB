@@ -933,8 +933,7 @@ Styling the archeive verison Mobile  */
   width: 100%;
 }
 .__left {
-  background: #ffffff;
-  opacity: 0.26;
+  background: rgb(255, 255, 255, 0.26);
   border-radius: 3px;
   padding: 2px 7px;
   position: relative;
