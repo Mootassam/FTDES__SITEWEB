@@ -1340,6 +1340,14 @@ Styling the archeive verison Mobile  */
   .app__evenement {
     padding: 49px 0 0 0;
   }
+  .evenement__timing {
+    display: flex;
+
+    transform: rotate(270deg);
+    max-height: 95px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+  }
   .evenement__content {
     margin-top: 1.875rem;
     display: flex;
