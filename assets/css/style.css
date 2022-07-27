@@ -634,6 +634,9 @@ Styling the archeive verison Mobile  */
   padding: 0 19px;
   text-align: center;
 }
+.statesitique__global > .global__navigations {
+  display: none;
+}
 
 @media screen and (max-width: 1171px) {
   .statestique {
@@ -642,7 +645,9 @@ Styling the archeive verison Mobile  */
   .statestique > div:nth-child(1) {
     padding: 0 18px;
   }
-
+  .statesitique__global > .global__navigations {
+    display: flex;
+  }
   .statesitique__global {
     margin-top: 27px;
     margin-bottom: 43px;
@@ -901,14 +906,22 @@ Styling the archeive verison Mobile  */
 
 .images__bottom > div > img {
   padding-bottom: 0.875rem;
+  width: 100%;
 }
 .__header {
   position: relative;
+  width: 100%;
+  height: 322px;
+}
+.__header > img {
+  width: 100%;
+  height: 100%;
 }
 .__detaills {
   position: absolute;
   bottom: 0;
   padding: 2.0625rem;
+  width: 100%;
 }
 .__left {
   background: #ffffff;
