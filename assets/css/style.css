@@ -844,7 +844,7 @@ Styling the archeive verison Mobile  */
   grid-template-columns: repeat(4, 270px);
   column-gap: 30px;
   padding-top: 32px;
-  align-items: baseline;
+  align-items: center;
 }
 .percent__detaills > div {
   width: 270px;
@@ -902,6 +902,10 @@ Styling the archeive verison Mobile  */
   display: flex;
   column-gap: 2.0625rem;
   padding-top: 2.0625rem;
+}
+.images__bottom > div {
+  width: 100%;
+  width: 338px;
 }
 
 .images__bottom > div > img {
@@ -1065,11 +1069,18 @@ Styling the archeive verison Mobile  */
   .images__bottom {
     display: flex;
     column-gap: 0;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-top: 2.0625rem;
     width: 100%;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .images__bottom img {
+    height: 100%;
+    width: 100%;
   }
 
   .publication__list {
@@ -1290,6 +1301,8 @@ Styling the archeive verison Mobile  */
 }
 
 .clendar__footer {
+  width: 369px;
+
   position: relative;
 }
 
@@ -1341,7 +1354,7 @@ Styling the archeive verison Mobile  */
     display: flex;
     flex-direction: column;
     column-gap: 22px;
-    width: 312px;
+    min-width: 312px;
     height: 460px;
     padding: 13px 15px;
     background-color: var(--white);
@@ -1658,6 +1671,9 @@ styling the newsLettre */
   width: max-content;
   height: calc(100% - 6px);
 }
+.newsLettre__left > .text__content {
+  display: none;
+}
 
 @media screen and (max-width: 1171px) {
   .newsLettre {
@@ -1677,6 +1693,18 @@ styling the newsLettre */
     width: 100%;
     background-color: var(--violet);
     padding: 21px 21px 71px 21px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .right__text > .text__content {
+    display: none;
+  }
+  .right__text > .global__button {
+    display: none;
+  }
+  .newsLettre__left > .text__content {
+    display: block;
   }
 }
 
