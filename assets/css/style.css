@@ -1702,6 +1702,7 @@ styling the newsLettre */
   }
   .right__text > .global__button {
     display: none;
+    margin-bottom: 0;
   }
   .newsLettre__left > .text__content {
     display: block;
