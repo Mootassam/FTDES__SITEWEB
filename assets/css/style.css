@@ -1340,13 +1340,18 @@ Styling the archeive verison Mobile  */
   .app__evenement {
     padding: 49px 0 0 0;
   }
+  .evenenement {
+    padding: 0 18px;
+  }
   .evenement__timing {
     display: flex;
-
     transform: rotate(270deg);
     max-height: 95px;
     margin-bottom: 25px;
     align-items: flex-start;
+  }
+  .time {
+    transform: rotate(90deg);
   }
   .evenement__content {
     margin-top: 1.875rem;
@@ -1388,6 +1393,10 @@ Styling the archeive verison Mobile  */
   }
   .clendar__footer > img {
     width: 100%;
+  }
+  .timing__number {
+    height: 800px;
+    margin-right: 0;
   }
 }
 
